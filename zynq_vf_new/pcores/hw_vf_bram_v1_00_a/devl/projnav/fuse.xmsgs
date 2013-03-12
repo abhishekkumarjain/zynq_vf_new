@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/tb.vhd" Line 82: &lt;<arg fmt="%s" index="1">user_logic</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="854" delta="unknown" >"D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/tb.vhd" Line 10: Unit &lt;<arg fmt="%s" index="1">behavior</arg>&gt; ignored due to previous errors.
+</msg>
+
+</messages>
+

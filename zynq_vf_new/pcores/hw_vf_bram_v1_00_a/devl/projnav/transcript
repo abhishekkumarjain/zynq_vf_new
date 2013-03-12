@@ -1,0 +1,50 @@
+# Reading D:/modeltech_6.5b/tcl/vsim/pref.tcl 
+# //  ModelSim SE 6.5b May 21 2009 
+# //
+# //  Copyright 1991-2009 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# do {testbench.fdo} 
+# ** Warning: (vlib-34) Library already exists at "work".
+# ** Warning: (vlib-34) Library already exists at "proc_common_v3_00_a".
+# Model Technology ModelSim SE vcom 6.5b Compiler 2009.05 May 21 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling package proc_common_pkg
+# -- Compiling package body proc_common_pkg
+# -- Loading package proc_common_pkg
+# ** Warning: (vlib-34) Library already exists at "hw_vf_bram_v1_00_a".
+# Model Technology ModelSim SE vcom 6.5b Compiler 2009.05 May 21 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package numeric_std
+# -- Loading package proc_common_pkg
+# -- Compiling entity user_logic
+# -- Compiling architecture imp of user_logic
+# Model Technology ModelSim SE vcom 6.5b Compiler 2009.05 May 21 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity testbench
+# -- Compiling architecture behavior of testbench
+# vsim -lib work -voptargs=\"+acc\" -t 1ps work.testbench 
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: [1] tb.vhd(102): (vopt-3473) Component instance "uut : user_logic" is not bound.
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.testbench(behavior)#1
+# ** Warning: (vsim-3473) Component instance "uut : user_logic" is not bound.
+#    Time: 0 ps  Iteration: 0  Region: /testbench  File: tb.vhd
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body

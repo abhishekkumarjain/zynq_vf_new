@@ -1,0 +1,55 @@
+xst -intstyle ise -ifn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.xst" -ofn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7z020-clg484-1 hw_vf_bram.ngc hw_vf_bram.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o hw_vf_bram_map.ncd hw_vf_bram.ngd hw_vf_bram.pcf 
+par -w -intstyle ise -ol high -mt off hw_vf_bram_map.ncd hw_vf_bram.ncd hw_vf_bram.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml hw_vf_bram.twx hw_vf_bram.ncd -o hw_vf_bram.twr hw_vf_bram.pcf 
+xst -intstyle ise -ifn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.xst" -ofn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.syr" 
+xst -intstyle ise -ifn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.xst" -ofn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.syr" 
+xst -intstyle ise -ifn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.xst" -ofn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.syr" 
+xst -intstyle ise -ifn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.xst" -ofn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.syr" 
+xst -intstyle ise -ifn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.xst" -ofn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.syr" 
+xst -intstyle ise -ifn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.xst" -ofn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.syr" 
+xst -intstyle ise -ifn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.xst" -ofn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.syr" 
+xst -intstyle ise -ifn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.xst" -ofn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.syr" 
+xst -intstyle ise -ifn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.xst" -ofn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.syr" 
+xst -intstyle ise -ifn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.xst" -ofn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7z020-clg484-1 hw_vf_bram.ngc hw_vf_bram.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o hw_vf_bram_map.ncd hw_vf_bram.ngd hw_vf_bram.pcf 
+par -w -intstyle ise -ol high -mt off hw_vf_bram_map.ncd hw_vf_bram.ncd hw_vf_bram.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml hw_vf_bram.twx hw_vf_bram.ncd -o hw_vf_bram.twr hw_vf_bram.pcf 
+xst -intstyle ise -ifn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.xst" -ofn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7z020-clg484-1 hw_vf_bram.ngc hw_vf_bram.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o hw_vf_bram_map.ncd hw_vf_bram.ngd hw_vf_bram.pcf 
+par -w -intstyle ise -ol high -mt off hw_vf_bram_map.ncd hw_vf_bram.ncd hw_vf_bram.pcf 
+xst -intstyle ise -ifn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.xst" -ofn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.syr" 
+xst -intstyle ise -ifn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.xst" -ofn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.syr" 
+xst -intstyle ise -ifn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.xst" -ofn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.syr" 
+xst -intstyle ise -ifn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.xst" -ofn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.syr" 
+xst -intstyle ise -ifn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.xst" -ofn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.syr" 
+xst -intstyle ise -ifn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.xst" -ofn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.syr" 
+xst -intstyle ise -ifn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.xst" -ofn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.syr" 
+xst -intstyle ise -ifn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.xst" -ofn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.syr" 
+xst -intstyle ise -ifn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.xst" -ofn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.syr" 
+xst -intstyle ise -ifn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.xst" -ofn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.syr" 
+xst -intstyle ise -ifn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.xst" -ofn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.syr" 
+xst -intstyle ise -ifn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.xst" -ofn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.syr" 
+xst -intstyle ise -ifn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.xst" -ofn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.syr" 
+xst -intstyle ise -ifn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.xst" -ofn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.syr" 
+xst -intstyle ise -ifn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.xst" -ofn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.syr" 
+xst -intstyle ise -ifn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.xst" -ofn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.syr" 
+xst -intstyle ise -ifn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.xst" -ofn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.syr" 
+xst -intstyle ise -ifn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.xst" -ofn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.syr" 
+xst -intstyle ise -ifn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.xst" -ofn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim hw_vf_bram.ngc hw_vf_bram_synthesis.v 
+xst -intstyle ise -ifn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.xst" -ofn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7z020-clg484-1 hw_vf_bram.ngc hw_vf_bram.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o hw_vf_bram_map.ncd hw_vf_bram.ngd hw_vf_bram.pcf 
+par -w -intstyle ise -ol high -mt off hw_vf_bram_map.ncd hw_vf_bram.ncd hw_vf_bram.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml hw_vf_bram.twx hw_vf_bram.ncd -o hw_vf_bram.twr hw_vf_bram.pcf 
+xst -intstyle ise -ifn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.xst" -ofn "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7z020-clg484-1 hw_vf_bram.ngc hw_vf_bram.ngd  
+map -intstyle ise -p xc7z020-clg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o hw_vf_bram_map.ncd hw_vf_bram.ngd hw_vf_bram.pcf 
+par -w -intstyle ise -ol high -mt off hw_vf_bram_map.ncd hw_vf_bram.ncd hw_vf_bram.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml hw_vf_bram.twx hw_vf_bram.ncd -o hw_vf_bram.twr hw_vf_bram.pcf 
+bitgen -intstyle ise -f hw_vf_bram.ut hw_vf_bram.ncd 
+xst -intstyle ise -ifn "D:/Dropbox/Workspace/zynq_vf_new/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.xst" -ofn "D:/Dropbox/Workspace/zynq_vf_new/pcores/hw_vf_bram_v1_00_a/devl/projnav/hw_vf_bram.syr" 

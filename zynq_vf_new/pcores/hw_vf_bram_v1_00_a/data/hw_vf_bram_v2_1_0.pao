@@ -1,0 +1,12 @@
+##############################################################################
+## Filename:          D:\Dropbox\Dropbox\Workspace\zynq_vf_new\pcores/hw_vf_bram_v1_00_a/data/hw_vf_bram_v2_1_0.pao
+## Description:       Peripheral Analysis Order
+## Date:              Thu Feb 07 15:08:12 2013 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+lib proc_common_v3_00_a all vhdl
+lib axi_slave_burst_v1_00_a all vhdl
+lib mylibs_v1_00_a all vhdl
+lib hw_vf_bram_v1_00_a virtual_fabric verilog
+lib hw_vf_bram_v1_00_a user_logic vhdl
+lib hw_vf_bram_v1_00_a hw_vf_bram vhdl

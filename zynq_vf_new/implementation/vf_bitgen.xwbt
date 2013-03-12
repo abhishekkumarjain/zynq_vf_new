@@ -1,0 +1,7 @@
+INFILE=C:\Users\khoa002\Dropbox\hyperzynq-master\zynq_vf_new\implementation\vf.ncd
+OUTFILE=C:\Users\khoa002\Dropbox\hyperzynq-master\zynq_vf_new\implementation\vf.bit
+FAMILY=Zynq
+PART=xc7z020-1clg484
+WORKINGDIR=C:\Users\khoa002\Dropbox\hyperzynq-master\zynq_vf_new\implementation
+LICENSE=ISE
+USER_INFO=179624505_206273298_210294579_645

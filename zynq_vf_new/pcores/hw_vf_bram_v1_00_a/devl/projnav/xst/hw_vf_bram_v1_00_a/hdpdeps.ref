@@ -1,0 +1,11 @@
+V3 8
+FL D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/../../hdl/vhdl/user_logic.vhd 2012/12/05.20:52:06 P.28xd
+EN hw_vf_bram_v1_00_a/user_logic 1354713007 \
+      FL D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/../../hdl/vhdl/user_logic.vhd \
+      PB ieee/std_logic_1164 1341906176 PB ieee/std_logic_arith 1341906177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1341906179 LB proc_common_v3_00_a \
+      PB proc_common_v3_00_a/proc_common_pkg 1354713006
+AR hw_vf_bram_v1_00_a/user_logic/IMP 1354713008 \
+      FL D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/../../hdl/vhdl/user_logic.vhd \
+      EN hw_vf_bram_v1_00_a/user_logic 1354713007 CP integer CP BYTE_RAM_TYPE \
+      CP std_logic CP std_logic_vector

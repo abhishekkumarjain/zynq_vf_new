@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/user_logic_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="proc_common_pkg" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="user_logic" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="52" />
+   <wvobject fp_name="/user_logic/bus2ip_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">bus2ip_clk</obj_property>
+      <obj_property name="ObjectShortName">bus2ip_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_logic/bus2ip_resetn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">bus2ip_resetn</obj_property>
+      <obj_property name="ObjectShortName">bus2ip_resetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_logic/bus2ip_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">bus2ip_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">bus2ip_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_logic/bus2ip_cs" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">bus2ip_cs[1:0]</obj_property>
+      <obj_property name="ObjectShortName">bus2ip_cs[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_logic/bus2ip_rnw" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">bus2ip_rnw</obj_property>
+      <obj_property name="ObjectShortName">bus2ip_rnw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_logic/bus2ip_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">bus2ip_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">bus2ip_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_logic/bus2ip_be" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">bus2ip_be[3:0]</obj_property>
+      <obj_property name="ObjectShortName">bus2ip_be[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_logic/bus2ip_rdce" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">bus2ip_rdce[1:0]</obj_property>
+      <obj_property name="ObjectShortName">bus2ip_rdce[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_logic/bus2ip_wrce" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">bus2ip_wrce[1:0]</obj_property>
+      <obj_property name="ObjectShortName">bus2ip_wrce[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_logic/bus2ip_burst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">bus2ip_burst</obj_property>
+      <obj_property name="ObjectShortName">bus2ip_burst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_logic/bus2ip_burstlength" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">bus2ip_burstlength[7:0]</obj_property>
+      <obj_property name="ObjectShortName">bus2ip_burstlength[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_logic/bus2ip_rdreq" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">bus2ip_rdreq</obj_property>
+      <obj_property name="ObjectShortName">bus2ip_rdreq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_logic/bus2ip_wrreq" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">bus2ip_wrreq</obj_property>
+      <obj_property name="ObjectShortName">bus2ip_wrreq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_logic/ip2bus_addrack" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ip2bus_addrack</obj_property>
+      <obj_property name="ObjectShortName">ip2bus_addrack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_logic/ip2bus_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ip2bus_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ip2bus_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_logic/ip2bus_rdack" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ip2bus_rdack</obj_property>
+      <obj_property name="ObjectShortName">ip2bus_rdack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_logic/ip2bus_wrack" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ip2bus_wrack</obj_property>
+      <obj_property name="ObjectShortName">ip2bus_wrack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_logic/ip2bus_error" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ip2bus_error</obj_property>
+      <obj_property name="ObjectShortName">ip2bus_error</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_logic/type_of_xfer" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">type_of_xfer</obj_property>
+      <obj_property name="ObjectShortName">type_of_xfer</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_logic/mem_data_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_data_out[0:1]</obj_property>
+      <obj_property name="ObjectShortName">mem_data_out[0:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_logic/mem_address_a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_address_a[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_address_a[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_logic/mem_select" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_select[0:1]</obj_property>
+      <obj_property name="ObjectShortName">mem_select[0:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_logic/mem_read_enable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_read_enable</obj_property>
+      <obj_property name="ObjectShortName">mem_read_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_logic/mem_ip2bus_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_ip2bus_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_ip2bus_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_logic/mem_read_ack_dly1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_read_ack_dly1</obj_property>
+      <obj_property name="ObjectShortName">mem_read_ack_dly1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_logic/mem_read_ack_dly2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_read_ack_dly2</obj_property>
+      <obj_property name="ObjectShortName">mem_read_ack_dly2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_logic/mem_read_ack" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_read_ack</obj_property>
+      <obj_property name="ObjectShortName">mem_read_ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_logic/mem_write_ack" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_write_ack</obj_property>
+      <obj_property name="ObjectShortName">mem_write_ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_logic/data_mem2usr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_mem2usr[0:1]</obj_property>
+      <obj_property name="ObjectShortName">data_mem2usr[0:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_logic/data_usr2mem" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_usr2mem[0:1]</obj_property>
+      <obj_property name="ObjectShortName">data_usr2mem[0:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_logic/addr_usr2mem" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addr_usr2mem[0:1]</obj_property>
+      <obj_property name="ObjectShortName">addr_usr2mem[0:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_logic/be_usr2mem" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">be_usr2mem[0:1]</obj_property>
+      <obj_property name="ObjectShortName">be_usr2mem[0:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_logic/wrce_usr2mem" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wrce_usr2mem[0:1]</obj_property>
+      <obj_property name="ObjectShortName">wrce_usr2mem[0:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_logic/rdce_usr2mem" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rdce_usr2mem[0:1]</obj_property>
+      <obj_property name="ObjectShortName">rdce_usr2mem[0:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_logic/wrack_mem2usr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wrack_mem2usr[0:1]</obj_property>
+      <obj_property name="ObjectShortName">wrack_mem2usr[0:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_logic/rdack_mem2usr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rdack_mem2usr[0:1]</obj_property>
+      <obj_property name="ObjectShortName">rdack_mem2usr[0:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_logic/mem_address_b" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_address_b[0:1]</obj_property>
+      <obj_property name="ObjectShortName">mem_address_b[0:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_logic/rd_dly1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rd_dly1[0:1]</obj_property>
+      <obj_property name="ObjectShortName">rd_dly1[0:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_logic/rd_dly2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rd_dly2[0:1]</obj_property>
+      <obj_property name="ObjectShortName">rd_dly2[0:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_logic/rd_dly3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rd_dly3[0:1]</obj_property>
+      <obj_property name="ObjectShortName">rd_dly3[0:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_logic/rd_dly4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rd_dly4[0:1]</obj_property>
+      <obj_property name="ObjectShortName">rd_dly4[0:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_logic/rd_dly5" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rd_dly5[0:1]</obj_property>
+      <obj_property name="ObjectShortName">rd_dly5[0:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_logic/wr_dly1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wr_dly1[0:1]</obj_property>
+      <obj_property name="ObjectShortName">wr_dly1[0:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_logic/wr_dly2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wr_dly2[0:1]</obj_property>
+      <obj_property name="ObjectShortName">wr_dly2[0:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_logic/wr_dly3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wr_dly3[0:1]</obj_property>
+      <obj_property name="ObjectShortName">wr_dly3[0:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_logic/wr_dly4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wr_dly4[0:1]</obj_property>
+      <obj_property name="ObjectShortName">wr_dly4[0:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_logic/wr_dly5" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wr_dly5[0:1]</obj_property>
+      <obj_property name="ObjectShortName">wr_dly5[0:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_logic/test1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">test1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">test1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_logic/status" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">status[7:0]</obj_property>
+      <obj_property name="ObjectShortName">status[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_logic/c_slv_awidth" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">c_slv_awidth</obj_property>
+      <obj_property name="ObjectShortName">c_slv_awidth</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_logic/c_slv_dwidth" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">c_slv_dwidth</obj_property>
+      <obj_property name="ObjectShortName">c_slv_dwidth</obj_property>
+   </wvobject>
+   <wvobject fp_name="/user_logic/c_num_mem" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">c_num_mem</obj_property>
+      <obj_property name="ObjectShortName">c_num_mem</obj_property>
+   </wvobject>
+</wave_config>

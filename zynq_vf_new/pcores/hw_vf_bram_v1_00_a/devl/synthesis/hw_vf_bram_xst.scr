@@ -1,0 +1,12 @@
+run
+-opt_level 2
+-opt_mode speed
+-ifmt mixed
+-ifn "D:\Dropbox\Dropbox\Workspace\zynq_vf\pcores\hw_vf_bram_v1_00_a\devl\synthesis\hw_vf_bram_xst.prj"
+-top hw_vf_bram
+-p virtex6
+-ofn "D:\Dropbox\Dropbox\Workspace\zynq_vf\pcores\hw_vf_bram_v1_00_a\devl\synthesis\hw_vf_bram_xst.ngc"
+-iobuf NO
+-rtlview YES
+-hierarchy_separator /
+-work_lib hw_vf_bram_v1_00_a

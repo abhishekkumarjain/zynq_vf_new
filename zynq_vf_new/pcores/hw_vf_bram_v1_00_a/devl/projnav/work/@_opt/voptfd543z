@@ -1,0 +1,40 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Dropbox\Dropbox\Workspace\zynq_vf\pcores\hw_vf_bram_v1_00_a\devl\projnav
+T_opt
+Z1 VK:ECX2CZ2=7JTJlTT5VIL3
+Z2 04 9 8 work testbench behavior 1
+Z3 =1-0025115e9161-50c02f88-29-1470
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+Z5 n@_opt
+Z6 OE;O;6.5b;42
+Etestbench
+Z7 w1354772274
+Z8 DPx22 D:\modeltech_6.5b\ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z9 DPx22 D:\modeltech_6.5b\ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+31
+Z10 8tb.vhd
+Z11 Ftb.vhd
+l0
+L7
+Z12 Vjc?06^Fo5`U>9HPmW9n]`2
+Z13 OE;C;6.5b;42
+Z14 o-explicit -93
+Z15 tExplicit 1
+Z16 !s100 AJc[hgKFG7U<G>:jPk1KD2
+Abehavior
+R8
+R9
+DEx80 D:\Dropbox\Dropbox\Workspace\zynq_vf\pcores\hw_vf_bram_v1_00_a\devl\projnav\work 9 testbench 0 22 jc?06^Fo5`U>9HPmW9n]`2
+31
+Mx2 22 D:\modeltech_6.5b\ieee 14 std_logic_1164
+Mx1 22 D:\modeltech_6.5b\ieee 11 numeric_std
+l79
+L10
+Z17 VkzK?AXNJ41M4KKM@@11LS3
+R13
+R14
+R15
+Z18 !s100 Y2A>OnJ4L^b1mDh:BbRJM0

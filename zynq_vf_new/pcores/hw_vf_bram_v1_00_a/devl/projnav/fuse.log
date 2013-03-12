@@ -1,0 +1,22 @@
+Running: d:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/testbench_isim_beh.exe -prj D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/testbench_beh.prj work.testbench 
+ISim P.28xd (signature 0xa0883be4)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/../../../../../../../../Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/proc_common_pkg.vhd" into library proc_common_v3_00_a
+Parsing VHDL file "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/../../hdl/vhdl/user_logic.vhd" into library hw_vf_bram_v1_00_a
+Parsing VHDL file "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/tb.vhd" into library work
+Starting static elaboration
+WARNING:HDLCompiler:89 - "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/tb.vhd" Line 81: <user_logic> remains a black-box since it has no binding entity.
+Completed static elaboration
+WARNING:Simulator:648 - "D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/tb.vhd" Line 81. Instance user_logic is unbound
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture behavior of entity testbench
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 4 VHDL Units
+Built simulation executable D:/Dropbox/Dropbox/Workspace/zynq_vf/pcores/hw_vf_bram_v1_00_a/devl/projnav/testbench_isim_beh.exe
+Fuse Memory Usage: 35772 KB
+Fuse CPU Usage: 857 ms

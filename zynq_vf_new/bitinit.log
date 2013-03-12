@@ -1,0 +1,43 @@
+
+bitinit version Xilinx EDK 14.2 Build EDK_P.28xd
+Copyright (c) Xilinx Inc. 2002.
+
+Parsing MHS File vf.mhs...
+WARNING:EDK:4092 - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   D:\Dropbox\Dropbox\Workspace\zynq_vf\vf.mhs line 37 
+WARNING:EDK:4092 - IPNAME: axi_interconnect, INSTANCE: axi_interconnect_1 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   D:\Dropbox\Dropbox\Workspace\zynq_vf\vf.mhs line 135 
+
+Overriding IP level properties ...
+INFO:EDK:4130 - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl
+   is overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   d:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v
+   4_01_a\data\processing_system7_v2_1_0.mpd line 314 
+INFO:EDK:4130 - IPNAME: axi_interconnect, INSTANCE:axi_interconnect_1 - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   d:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_interconnect_v1_
+   06_a\data\axi_interconnect_v2_1_0.mpd line 80 
+
+Computing clock values...
+INFO:EDK:1432 - Frequency for Top-Level Input Clock
+   'processing_system7_0_PS_CLK' is not specified. Clock DRCs will not be
+   performed for IPs connected to that clock port, unless they are connected
+   through the clock generator IP. 
+
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor processing_system7_0
+  (0x70400000-0x7040ffff) hw_vf_bram_0	axi_interconnect_1
+  (0x70410000-0x7041ffff) hw_vf_bram_0	axi_interconnect_1
+
+Checking platform address map ...
+
+Initializing Memory...
+No bram_block IP found in MHS file to initialize. Skipping Data2Mem
+Copying implementation/vf.bit to implementation/download.bit...
+Memory Initialization completed successfully.
+

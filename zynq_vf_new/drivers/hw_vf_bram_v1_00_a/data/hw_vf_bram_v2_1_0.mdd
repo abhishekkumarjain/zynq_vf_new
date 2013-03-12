@@ -1,0 +1,15 @@
+##############################################################################
+## Filename:          D:\Dropbox\Dropbox\Workspace\zynq_vf/drivers/hw_vf_bram_v1_00_a/data/hw_vf_bram_v2_1_0.mdd
+## Description:       Microprocessor Driver Definition
+## Date:              Mon Nov 26 17:46:35 2012 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+OPTION psf_version = 2.1.0;
+
+BEGIN DRIVER hw_vf_bram
+
+  OPTION supported_peripherals = (hw_vf_bram);
+  OPTION depends = (common_v1_00_a);
+  OPTION copyfiles = all;
+
+END DRIVER

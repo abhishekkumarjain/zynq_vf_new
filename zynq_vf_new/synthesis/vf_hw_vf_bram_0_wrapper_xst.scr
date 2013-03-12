@@ -1,0 +1,14 @@
+set -tmpdir C:\Users\khoa002\Dropbox\hyperzynq-master\zynq_vf_new\synthesis\xst_temp_dir\
+run
+-opt_mode speed
+-netlist_hierarchy as_optimized
+-opt_level 1
+-p xc7z020clg484-1
+-top vf_hw_vf_bram_0_wrapper
+-ifmt MIXED
+-ifn vf_hw_vf_bram_0_wrapper_xst.prj
+-ofn ../implementation/vf_hw_vf_bram_0_wrapper.ngc
+-hierarchy_separator /
+-iobuf NO
+-sd {../implementation}
+-vlgincdir {"C:\Users\khoa002\Dropbox\hyperzynq-master\zynq_vf_new\pcores\" "D:\Xilinx\14.4\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "D:\Xilinx\14.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }

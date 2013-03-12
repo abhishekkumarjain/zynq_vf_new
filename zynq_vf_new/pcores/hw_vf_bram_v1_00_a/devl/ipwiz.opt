@@ -1,0 +1,11 @@
+-batch 
+-create hw_vf_bram 
+-ver 1.00.a 
+-dir "D:\Dropbox\Dropbox\Workspace\zynq_vf" 
+-lang vhdl 
+-bus axi4 s 
+-burst s 32 
+-arn 2 
+-xps 
+-ise 
+-driver 
